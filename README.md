@@ -2,8 +2,6 @@
 
 A comprehensive C++ library for solving Ordinary Differential Equations (ODEs) using both symbolic and numerical methods.
 
-## Features
-
 ### Root Finding Methods
 - Bisection Method
 - Newton-Raphson Method
@@ -15,7 +13,6 @@ A comprehensive C++ library for solving Ordinary Differential Equations (ODEs) u
 - Brent's Method
 - Steffensen's Method
 - Ridder's Method
-- Laguerre's Method (complex roots)
 - Fixed Point Iteration
 
 ### ODE Solvers
@@ -63,14 +60,3 @@ ODE_solver/
 
 - C++17 or higher
 - CMake 3.15+
-- Boost Library (for symbolic computation)
-
-
-## Building
-
-```bash
-mkdir build
-cd build
-cmake ..
-make
-```
